@@ -574,3 +574,9 @@ body{
     0 0 30px rgba(255,255,255,0.6),
     0 0 50px rgba(255,255,255,0.3);
 }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0) scale(1); }
+  25% { transform: translateX(-5px) scale(1.02); }
+  75% { transform: translateX(5px) scale(1.02); }
+}
