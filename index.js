@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background: rgba(180, 15, 12, 0.95);
+        background: rgba(0, 0, 0, 0.95);
         color: white;
         padding: 25px;
         border-radius: 15px;
@@ -61,3 +61,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
